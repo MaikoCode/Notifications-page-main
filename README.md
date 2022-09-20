@@ -40,5 +40,5 @@ We also include variable and static font files for the required fonts for this p
 There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
 ## My solution
-- You can see my solution here: 
+- You can see my solution here: https://maikocode.github.io/Notifications-page-main/
 
