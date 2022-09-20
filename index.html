@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+  <div role="main" class="main">
+    <div role="section" class="notifications-alert-container">
+      <div class="notification-alert"><p class="label">Notifications</p> <p class="count">3</p></div>
+      <div role="button" class="notification-reader">Mark all as read</div>
+    </div>
+    <div role="section" class="notifications-container">
+      <div class="notification-container active">
+        <img class="profile-photo"src="./assets/images/avatar-mark-webber.webp" alt="photo">
+        <div class="message">
+          <p class="notification "><span class="name">Mark Webber</span> reacted to your recent post <span class="contest">My first tournament today!</span> <span class="red-dot"></span></p>
+          <span class="time">1m ago</span>
+        </div>
+      </div>
+      <div class="notification-container active">
+        <img class="profile-photo" src="./assets/images/avatar-angela-gray.webp" alt="photo">
+        <div class="message">
+          <p class="notification "><span class="name">Angela Gray</span> followed you <span class="red-dot"></span></p>
+          <span class="time">5m ago</span>
+        </div>
+      </div>
+      <div class="notification-container active">
+        <img class="profile-photo" src="./assets/images/avatar-jacob-thompson.webp" alt="photo">
+        <div class="message">
+          <p class="notification"><span class="name">Jacob Thompson</span> has joined your group <span class="chess-club">Chess Club</span> <span class="red-dot"> </span></p>
+          <span class="time">1 day ago</span>
+        </div>
+      </div>
+      <div class="notification-container">
+        <img class="profile-photo" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="photo">
+        <div class="message">
+          <p class="notification"><span class="name">Rizky Hasanuddin</span> sent you a private message</p>
+          <span class="time">5 days ago</span>
+          <p class="content">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
+      <div class="notification-container">
+        <img class="profile-photo" src="./assets/images/avatar-kimberly-smith.webp" alt="photo">
+        <div class="message">
+          <div class="box">
+            <p class="notification"><span class="name">Kimberly Smith</span> commented on your picture</p>
+            <img class="image-chess" src="./assets/images/image-chess.webp" alt="photo">
+          </div>
+          <span class="time">1 week ago</span>
+        </div>
+      </div>
+      <div class="notification-container">
+        <img class="profile-photo" src="./assets/images/avatar-nathan-peterson.webp" alt="photo">
+        <div class="message">
+          <p class="notification"><span class="name">Nathan Peterson</span> reacted to your recent post <span class="contest">5 end-game strategies to increase your win rate</span></p>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+      <div class="notification-container">
+        <img class="profile-photo" src="./assets/images/avatar-anna-kim.webp" alt="photo">
+        <div class="message">
+          <p class="notification"><span class="name">Anna Kim</span> left the group <span class="chess-club">Chess Club</span></p>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div role="footer" class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/mamadou-maikoke-traore-16b262225/" target="_blank">Maikoke</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
